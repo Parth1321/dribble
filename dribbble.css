@@ -1,0 +1,547 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+#nav-page1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav img{
+    height: 60px;
+}
+#nav h5{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #706f6f;
+}
+#nav-page2 button{
+    margin-left: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    
+    font-weight: 500;
+    
+}
+#btn2{
+    color: white;
+    background-color: #ea4c89;
+}
+#nav-page2 i{
+    font-size: 16px;
+}
+#center{
+    height: 78%;
+    width: 100%;
+    background-color: darkblue;
+    
+}
+#center video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#overlay{
+    height: 78%;
+    width: 100%;
+    top: 80px;
+    background-color: rgba(0, 0, 0, 0.664);
+    position: absolute;
+    padding: 40px;
+    
+}
+#info{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 19px;
+    
+}
+#info h5{
+    font-weight: 500;
+    padding: 15px 20px;
+    background-color: #736f6f88;
+    color: white;
+    font-size: 14px;
+    border-radius: 30px;
+    font-size: 17px;
+}
+#info h5:nth-child(8){
+    background-color: white;
+    color: black;
+}
+#info h1{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 150%;
+}
+#info h5:hover{
+    background-color: white;
+    color: black;
+}
+#info p{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+}
+::selection {
+    background: #ea4c89;
+    color: #fff;
+}
+#overlay h2{
+    color: white;
+    margin-top: 110px;
+    text-align: center;
+    
+    font-size: 33px;
+    font-weight: 600;
+}
+#overlay p{
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+}
+#overlay input{
+    width: 40%;
+    padding: 18px 20px;
+    margin-left: 30%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+}
+#info2{
+    font-family: gilroy;
+    text-transform: capitalize;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 19px;
+    margin-top: -8%;
+}
+#info2 h5{
+    font-weight: 500;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    background-color: rgba(198, 209, 209, 0.311);
+    border-radius: 30px;
+    
+}
+#info2 h5:hover{
+    background-color: transparent;
+    color: lightskyblue;
+}
+#bottom{
+    height: 200%;
+    width: 100%;
+    
+    padding: 40px;
+}
+.elem{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(0, 100, 128);
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 50px;
+    position: relative;
+}
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.elem #cover{
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    width: 100%;
+    bottom: -40%;
+    background: linear-gradient(transparent,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    transition: all ease 0.5s;
+    
+
+}
+
+#cover h6{
+    font-size: 15px;
+    color: #fff;
+    padding-left: 5px;
+}
+#cover i{
+    color: gray;
+    background-color: white;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.elem:hover #cover{
+   bottom: 0;
+}
+.elem #cover1{
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    width: 100%;
+    bottom: -40%;
+    background: linear-gradient(transparent,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    transition: all ease 0.5s;
+}
+#cover1 h6{
+    font-size: 15px;
+    color: #fff;
+}
+#cover1 i{
+    color: gray;
+    background-color: white;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.elem:hover #cover1{
+   bottom: 0;
+}
+.elem #cover2{
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    width: 100%;
+    bottom: -40%;
+    background: linear-gradient(transparent,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    transition: all ease 0.5s;
+}
+#cover2 h6{
+    font-size: 15px;
+    color: #fff;
+}
+#cover2 i{
+    color: gray;
+    background-color: white;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.elem:hover #cover2{
+   bottom: 0;
+}
+.elem #cover3{
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    width: 100%;
+    bottom: -40%;
+    background: linear-gradient(transparent,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    transition: all ease 0.5s;
+}
+#cover3 h6{
+    font-size: 14px;
+    color: #fff;
+}
+#cover3 i{
+    color: gray;
+    background-color: white;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.elem:hover #cover3{
+   bottom: 0;
+}
+.elem #cover4{
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    width: 100%;
+    bottom: -40%;
+    background: linear-gradient(transparent,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    transition: all ease 0.5s;
+}
+#cover4 h6{
+    font-size: 13px;
+    color: #fff;
+}
+#cover4 i{
+    color: gray;
+    background-color: white;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.elem:hover #cover4{
+   bottom: 0;
+}
+.elem #cover5{
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    width: 100%;
+    bottom: -40%;
+    background: linear-gradient(transparent,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    transition: all ease 0.5s;
+}
+#cover5 h6{
+    font-size: 13px;
+    color: #fff;
+}
+#cover5 i{
+    color: gray;
+    background-color: white;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.elem:hover #cover5{
+   bottom: 0;
+}
+.elem #cover6{
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    width: 100%;
+    bottom: -40%;
+    background: linear-gradient(transparent,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    transition: all ease 0.5s;
+}
+#cover6 h6{
+    font-size: 15px;
+    color: #fff;
+}
+#cover6 i{
+    color: gray;
+    background-color: white;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.elem:hover #cover6{
+   bottom: 0;
+}
+.elem #cover7{
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    width: 100%;
+    bottom: -40%;
+    background: linear-gradient(transparent,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    transition: all ease 0.5s;
+}
+#cover7 h6{
+    font-size: 13px;
+    color: #fff;
+}
+#cover7 i{
+    color: gray;
+    background-color: white;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.elem:hover #cover7{
+   bottom: 0;
+}
+.elem #cover8{
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    width: 100%;
+    bottom: -40%;
+    background: linear-gradient(transparent,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    transition: all ease 0.5s;
+}
+#cover8 h6{
+    font-size: 13px;
+    color: #fff;
+}
+#cover8 i{
+    color: gray;
+    background-color: white;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.elem:hover #cover8{
+   bottom: 0;
+}
+.elem #cover9{
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    width: 100%;
+    bottom: -40%;
+    background: linear-gradient(transparent,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    transition: all ease 0.5s;
+}
+#cover9 h6{
+    font-size: 13px;
+    color: #fff;
+}
+#cover9 i{
+    color: gray;
+    background-color: white;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.elem:hover #cover9{
+   bottom: 0;
+}
+.elem #cover10{
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    width: 100%;
+    bottom: -40%;
+    background: linear-gradient(transparent,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    transition: all ease 0.5s;
+}
+#cover10 h6{
+    font-size: 15px;
+    color: #fff;
+}
+#cover10 i{
+    color: gray;
+    background-color: white;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.elem:hover #cover10{
+   bottom: 0;
+}
+.elem #cover11{
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    width: 100%;
+    bottom: -40%;
+    background: linear-gradient(transparent,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    transition: all ease 0.5s;
+}
+#cover11 h6{
+    font-size: 15px;
+    color: #fff;
+}
+#cover11 i{
+    color: gray;
+    background-color: white;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.elem:hover #cover11{
+   bottom: 0;
+}
+.elem #cover12{
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    width: 100%;
+    bottom: -40%;
+    background: linear-gradient(transparent,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    transition: all ease 0.5s;
+}
+#cover12 h6{
+    font-size: 15px;
+    color: #fff;
+}
+#cover12 i{
+    color: gray;
+    background-color: white;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.elem:hover #cover12{
+   bottom: 0;
+}
